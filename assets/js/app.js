@@ -182,5 +182,6 @@ const displayProductDetailsById = (product) => {
     </div>
 
     `;
+  //appendChild
   productDetails.appendChild(div);
 };
