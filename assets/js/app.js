@@ -17,7 +17,7 @@ document.getElementById("search-btn").addEventListener("click", () => {
     searchInput.classList.add("is-invalid");
   }
 });
-
+//loading
 const loading = (diplay) => {
   const loading = document.getElementById("overlay");
   loading.style.display = diplay;
