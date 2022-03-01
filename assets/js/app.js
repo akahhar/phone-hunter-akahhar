@@ -1,3 +1,4 @@
+//search-btn
 document.getElementById("search-btn").addEventListener("click", () => {
   const productDetails = document.getElementById("product-details");
   productDetails.textContent = "";
