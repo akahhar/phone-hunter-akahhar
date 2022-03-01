@@ -67,6 +67,7 @@ const loadDetailsById = async (productId) => {
   const data = await res.json();
   displayProductDetailsById(data);
 };
+//displayProductDetailsById
 const displayProductDetailsById = (product) => {
   loading("none");
   const productDetails = document.getElementById("product-details");
