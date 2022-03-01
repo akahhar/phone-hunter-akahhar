@@ -22,7 +22,7 @@ const loading = (diplay) => {
   const loading = document.getElementById("overlay");
   loading.style.display = diplay;
 };
-
+//displaySearchResult
 const displaySearchResult = (products) => {
   loading("none");
   const searchResult = document.getElementById("searchResult");
