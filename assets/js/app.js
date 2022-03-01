@@ -59,7 +59,7 @@ const displaySearchResult = (products) => {
         `;
   }
 };
-
+//loadDetailsById 
 const loadDetailsById = async (productId) => {
   loading("block");
   const url = `https://openapi.programming-hero.com/api/phone/${productId}`;
