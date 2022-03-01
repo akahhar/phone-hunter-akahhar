@@ -1,0 +1,328 @@
+/*
+
+  Theme Name: codeJar - Mobile-shop-bd
+
+  Author: Nayeem
+
+  Support: Nayeem@gmail.com
+
+  Description: Mobile-shop-bd
+
+  Version: 1.0
+
+*/
+
+/* 1. Theme default css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Manrope', sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  text-decoration: none;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: #3e3e3e;
+  text-decoration: none;
+}
+
+a,
+button {
+  color: #3e3e3e;
+  outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: red;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 26px;
+  color: #231d4f;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+h4 {
+  /* font-size: 26px; */
+  font-weight: 700;
+  color: #231d4f;
+  margin-bottom: 6px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #7e848c;
+  margin-bottom: 15px;
+}
+
+/* button style */
+
+.btn {
+  background-color: rgba(89, 165, 255, 1);
+  border-radius: 4px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 14px 30px;
+  text-align: center;
+  text-transform: capitalize;
+  touch-action: manipulation;
+  transition: all 0.5s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+  position: relative;
+}
+.btn-details {
+  padding: 7px 10px;
+  font-size: 14px;
+}
+/* .btn:hover {
+  background-color: #ffffff;
+  color: #3f87f5;
+} */
+.bg-gray {
+  background-color: #f8f8f8;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+.pt-45 {
+  padding-top: 45px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-110 {
+  margin-bottom: 110px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+/* Card */
+
+.card,
+.card-img-top {
+  transition: 0.3s;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  border-color: #ffc107;
+}
+.form-control {
+  background-color: #dcdcdc;
+  border: none;
+}
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 6px;
+  left: 10px;
+}
+.table tr td,
+.table tr th {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  color: lightslategray;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.15rem rgb(13 110 253 / 25%);
+}
+.form-control.is-invalid,
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+  box-shadow: 0 0 0 0.15rem rgb(220 53 69 / 25%);
+}
+/* Spinner */
+#spinner {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.cv-spinner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px #ddd solid;
+  border-top: 4px #2e93e6 solid;
+  border-radius: 50%;
+  animation: sp-anime 0.8s infinite linear;
+}
+
+@keyframes sp-anime {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Responsive styles */
+@media (min-width: 1500px) and (max-width: 1920px) {
+}
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* small mobile :320px. */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+}
